@@ -13,10 +13,11 @@
 }
 
 @if (post() && !loading()) {
+
   <!-- Reading progress bar -->
   <div class="progress-bar" [style.width.%]="progress()"></div>
 
-  <!-- Hero -->
+  <!-- ── HERO — title, meta, author only (NO content here) ── -->
   <section class="detail-hero">
     <div class="hero-bg"></div>
     <div class="hero-grid"></div>
@@ -32,8 +33,9 @@
     </div>
 
     <div class="container hero-inner">
+
+      <!-- Category · Date · Read time -->
       <div class="article-meta">
-        <!-- FIX: use post()!.category.name not post()!.category (was object) -->
         <span class="meta-category">{{ post()!.category.name }}</span>
         <span class="meta-sep">·</span>
         <span class="meta-date">{{ post()!.date | date:'d MMMM yyyy' }}</span>
@@ -41,23 +43,20 @@
         <span class="meta-read">{{ post()!.readTime }}</span>
       </div>
 
+      <!-- Title -->
       <h1 class="article-title">{{ post()!.title }}</h1>
 
-      <!-- FIX: use excerpt not subtitle (Article has no subtitle) -->
+      <!-- Excerpt / subtitle -->
+      <p class="article-subtitle">{{ post()!.excerpt }}</p>
 
-      <div class="article-content">
-        <div class="content-body" [innerHTML]="content"></div>
-      </div>
-
-      <!--<div [innerHTML]="content"></div>-->
-      <!--<p class="article-subtitle">{{ post()!.blocks[0]?.body }}</p>-->
-
+      <!-- Gold divider -->
       <div class="hero-divider">
         <div class="divider-line"></div>
         <div class="divider-diamond"></div>
         <div class="divider-line"></div>
       </div>
 
+      <!-- Author + tags -->
       <div class="article-footer-meta">
         <div class="author-block">
           <div class="author-mark">
@@ -71,22 +70,23 @@
             <div class="author-label">Principal Architect</div>
           </div>
         </div>
-        <!-- FIX: use single tag string not tags array (Article has tag not tags) -->
         <div class="tag-list">
           <span class="tag">{{ post()!.tag }}</span>
           <span class="tag">{{ post()!.category.name }}</span>
         </div>
       </div>
+
     </div>
   </section>
 
-  <!-- Article body -->
+  <!-- ── ARTICLE BODY — sidebar + content (content rendered ONCE here) ── -->
   <article class="article-body">
     <div class="container article-inner">
 
       <!-- Sticky sidebar -->
       <aside class="article-sidebar">
         <div class="sidebar-inner">
+
           <div class="sidebar-label">Reading</div>
           <div class="sidebar-progress-wrap">
             <div class="sidebar-progress-bar" [style.height.%]="progress()"></div>
@@ -106,7 +106,7 @@
                 <path d="M8 7 V13 M8 9.5 C8 7 12 7 12 9.5 V13" stroke="currentColor" stroke-width="0.8"/>
               </svg>
             </a>
-           <a href="https://www.facebook.com/marafisconsultancy"
+            <a href="https://www.facebook.com/marafisconsultancy"
                target="_blank" rel="noopener" class="share-btn" title="Share on Facebook">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                 <rect x="1" y="1" width="14" height="14" stroke="currentColor" stroke-width="0.8"/>
@@ -114,15 +114,15 @@
               </svg>
             </a>
           </div>
+
         </div>
       </aside>
 
-      <!-- Main content -->
-      <!-- FIX: use description (full body) not sections array (Article has no sections) -->
+      <!-- ── MAIN CONTENT — single [innerHTML] from rich-text-to-html ── -->
       <div class="article-content">
-        <div class="content-body" [innerHTML]="post()!.description"></div>
+        <div class="content-body" [innerHTML]="content"></div>
 
-        <!-- CTA -->
+        <!-- CTA block -->
         <div class="article-cta">
           <svg class="cta-ornament" viewBox="0 0 40 40" fill="none">
             <rect x="1" y="1" width="38" height="38" stroke="#C9A84C" stroke-width="0.5"/>
@@ -139,14 +139,15 @@
           </p>
           <div class="cta-actions">
             <a href="mailto:hello@marafis.com" class="btn-primary">Get in touch</a>
-            <a [routerLink]="['/#services']" fragment="services" class="btn-secondary">View services</a>
+            <a [routerLink]="['/']" fragment="services" class="btn-secondary">View services</a>
           </div>
         </div>
       </div>
+
     </div>
   </article>
 
-  <!-- Related articles -->
+  <!-- ── RELATED ARTICLES ── -->
   @if (related().length > 0) {
     <section class="related-section">
       <div class="container">
@@ -157,7 +158,6 @@
         <div class="related-grid">
           @for (rel of related(); track rel.id) {
             <article class="related-card">
-              <!-- FIX: use rel.category.name, rel.excerpt, correct routerLink -->
               <span class="related-category">{{ rel.category.name }}</span>
               <h3 class="related-title">{{ rel.title }}</h3>
               <p class="related-excerpt">{{ rel.excerpt }}</p>
@@ -175,6 +175,7 @@
       </div>
     </section>
   }
+
 }
 
 @if (!post() && !loading()) {
