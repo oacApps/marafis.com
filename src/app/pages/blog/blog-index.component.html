@@ -13,11 +13,11 @@
 </div>
 
 <!-- CATEGORY FILTER BAR -->
-<div class="filter-bar">
-  <div class="filter-inner">
+<div class="filter-bar marquee-section" aria-hidden="true">
+  <div class="filter-inner marquee-item">
     @for (cat of categories; track cat) {
       <button
-        class="filter-btn"
+        class="filter-btn marquee-item"
         [class.active]="getCategorySlug(cat) === activeCategory"
         (click)="setCategory(cat)">
         {{ cat }}
