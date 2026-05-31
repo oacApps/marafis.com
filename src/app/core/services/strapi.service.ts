@@ -22,7 +22,16 @@ export class StrapiService {
       map(response => response.data.map(item => (item.name || '').trim())),
       catchError(error => {
         console.error('Strapi getCategories error:', error);
-        return of(['Architecture', 'Cloud & DevOps', 'Microservices', 'AI & Engineering', 'Leadership']);
+        return of([
+          'Solution Architecture',
+          'Cloud Transformation',
+          'Microservices Design',
+          'AI-Enabled Systems',
+          'DevOps & Observability',
+          'Platform Engineering',
+          'Digital Modernisation',
+          'Event-Driven Architecture',
+        ]);
       })
     );
   }
