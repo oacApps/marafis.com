@@ -1,5 +1,5 @@
 <!-- COMPONENT SEPARATED ARTIFACT LIST -->
-<div class="articles-heading">Recent Articles</div>
+<div class="articles-heading">{{"blog.recent-articles" | translate}}</div>
 <div class="articles-grid">
   @for (articleItem of recentArticles; track articleItem.id) {
     <mrf-article-card [article]="articleItem"></mrf-article-card>

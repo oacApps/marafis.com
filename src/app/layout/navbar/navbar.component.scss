@@ -112,3 +112,15 @@ nav {
     transform: translateY(-1px);
   }
 }
+
+.lang-switcher {
+  display: flex; align-items: center; gap: 0.4rem;
+}
+.lang-btn {
+  font-family: $font-sans; font-size: 0.65rem; font-weight: 600;
+  letter-spacing: 0.15em; color: $white-dim; background: none;
+  border: none; cursor: pointer; padding: 0.2rem;
+  transition: color 0.3s;
+  &.active, &:hover { color: $gold; }
+}
+.lang-sep { color: $gold-line; font-size: 0.75rem; }

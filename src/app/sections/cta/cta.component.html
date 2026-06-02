@@ -14,20 +14,14 @@
         </svg>
 
         <h2 class="cta-title">
-          Ready to Build Something <em>Remarkable?</em>
+          {{ 'sections.cta.title-part1' | translate }} <em>{{ 'sections.cta.title-part2' | translate }}</em>
         </h2>
-        <p class="section-body" style="margin-top: 1.5rem;">
-          Whether you're architecting a new platform, modernising a legacy system, or
-          accelerating a cloud migration - Marafis brings the expertise to do it right.
-        </p>
+        <p class="section-body" style="margin-top: 1.5rem;">{{ 'sections.cta.section-body' | translate }}</p>
       </div>
 
       <!-- Right -->
       <div class="cta-right" mrfReveal="right">
-        <p class="cta-detail">
-          Get in touch to discuss your challenges. We offer an initial discovery conversation
-          at no obligation - to understand your context and share how we might help.
-        </p>
+        <p class="cta-detail">{{ 'sections.cta.details' | translate }}</p>
 
         <div class="contact-items">
           @for (item of content.contactItems; track item.href) {
@@ -65,14 +59,16 @@
                   </svg>
                 }
               </div>
-              {{ item.label }}
+              @if (item.icon === 'facebook') { {{'cta.facebook' | translate}} }
+              @else if (item.icon === 'linkedin') { {{'cta.linkedin' | translate}} }
+              @else { {{ item.label }} }
             </a>
           }
         </div>
 
         <div class="cta-actions">
-          <a href="mailto:hello@marafis.com" class="btn-primary">Send a Message</a>
-          <a [routerLink]="['/']" fragment="services" class="btn-secondary">View Services</a>
+          <a href="mailto:hello@marafis.com" class="btn-primary">{{ 'sections.cta.send' | translate}}</a>
+          <a [routerLink]="['/']" fragment="services" class="btn-secondary">{{ 'sections.cta.services' | translate}}</a>
         </div>
       </div>
 

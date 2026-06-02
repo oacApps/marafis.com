@@ -3,12 +3,13 @@ import {DatePipe} from '@angular/common';
 import {Article} from '@shared/models/Content.model';
 import {RouterLink} from '@angular/router';
 import {StrapiService} from '@core/services/strapi.service';
+import {TranslatePipe} from '@ngx-translate/core';
 
 
 @Component({
   selector: 'mrf-featured-article',
   standalone: true,
-  imports: [ DatePipe, RouterLink ],
+  imports: [DatePipe, RouterLink, TranslatePipe],
   templateUrl: './featured-article.html',
   styleUrls: ['./featured-article.scss']
 })

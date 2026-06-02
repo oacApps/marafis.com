@@ -1,7 +1,7 @@
 <nav [class.scrolled]="scroll.scrolled$ | async">
   <a routerLink="/" class="nav-logo">
     <span class="logo-mark">MARAFIS</span>
-    <span class="logo-sub">Technology Consultancy</span>
+    <span class="logo-sub">{{ 'nav.technology-consultancy' | translate}}</span>
   </a>
 
   <ul class="nav-links">
@@ -9,11 +9,11 @@
       <li>
         @if (link.route) {
           <a [routerLink]="link.route">
-            {{ link.label }}
+            {{ link.label | translate }}
           </a>
         } @else {
           <a [routerLink]="['/']" [fragment]="link.fragment">
-            {{ link.label }}
+            {{ link.label | translate }}
           </a>
         }
       </li>
@@ -21,6 +21,16 @@
   </ul>
 
   <a [routerLink]="['/']" fragment="cta" class="nav-cta">
-    Engage Us
+    {{ 'nav.engage' | translate }}
   </a>
+
+  <!-- In navbar.component.html -->
+  <div class="lang-switcher">
+    <button class="lang-btn" [class.active]="currentLanguage() === 'en'" (click)="switchLanguage('en')">EN</button>
+    <span class="lang-sep">|</span>
+    <button class="lang-btn" [class.active]="currentLanguage() === 'nl'" (click)="switchLanguage('nl')">NL</button>
+    <span class="lang-sep">|</span>
+    <button class="lang-btn" [class.active]="currentLanguage() === 'de'" (click)="switchLanguage('de')">DE</button>
+  </div>
+
 </nav>

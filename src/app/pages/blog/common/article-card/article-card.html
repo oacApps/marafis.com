@@ -13,7 +13,7 @@
     <a [routerLink]="['/insights', article?.category?.slug, article?.slug]"
        class="card-read-link"
        (click)="$event.stopPropagation()">
-      Read →
+      {{"blog.read" | translate}} →
     </a>
   </div>
 </article>

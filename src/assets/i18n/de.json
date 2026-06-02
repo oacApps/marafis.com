@@ -1,0 +1,213 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "approach": "Vorgehensweise",
+    "industries": "Branchen",
+    "insights": "Einblicke",
+    "engage": "Kontakt aufnehmen",
+    "technology-consultancy": "Technologieberatung"
+  },
+  "services": {
+    "label": "Unsere Expertise",
+    "title": "Was wir liefern",
+    "body": "Wir bringen jahrzehntelange praktische Erfahrung in Softwareentwicklung und Architektur in jede Zusammenarbeit ein."
+  },
+
+  "cta": {
+    "title": "Bereit, etwas Außergewöhnliches zu schaffen?",
+    "email": "Nachricht senden",
+    "services": "Leistungen ansehen",
+    "contact": "Kontakt",
+    "linkedin": "Auf LinkedIn verbinden",
+    "facebook": "Auf Facebook folgen"
+  },
+
+  "footer": {
+    "footer-brand": "Hochwertige Technologielösungen für Unternehmen mit höchsten Qualitätsansprüchen. Architektur, Cloud und digitale Transformation – mit Präzision und Sorgfalt umgesetzt.",
+    "tagline": "Mit Präzision entwickelt. Mit Integrität geliefert.",
+    "copy": "Marafis Technology Consultancy. Alle Rechte vorbehalten.",
+    "company": "Unternehmen",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "our-approach": "Unsere Vorgehensweise",
+    "industries": "Branchen",
+    "contact-us": "Kontakt"
+  },
+
+  "blog": {
+    "readMore": "Artikel lesen",
+    "relatedTitle": "Verwandte Einblicke",
+    "relatedLabel": "Weiterlesen",
+    "notFound": "Artikel nicht gefunden.",
+    "backToAll": "Alle Einblicke",
+    "share": "Teilen",
+    "related": "Verwandt",
+    "insights": "Einblicke",
+    "reading": "Lesezeit",
+    "back-to-insights": "Zurück zu Einblicken",
+    "topics": "Themen",
+    "most-read": "Meist gelesen",
+    "recent-articles": "Neueste Artikel",
+    "featured-article": "Hervorgehobener Artikel",
+    "principal-architect": "Principal Architect",
+    "read": "Lesen",
+
+    "cta": {
+      "heading": "Bauen Sie etwas, das",
+      "heading-sub": "Bestand hat?",
+      "body": "Marafis bringt über 20 Jahre Erfahrung in Architektur und Engineering für Unternehmen ein, die nachhaltige und skalierbare Systeme benötigen.",
+      "contact": "Kontakt aufnehmen",
+      "services": "Leistungen ansehen"
+    },
+
+    "hero": {
+      "eyebrow": "Einblicke & Perspektiven",
+      "title1": "Denken in",
+      "title2": "Systemen",
+      "sub": "Architekturentscheidungen, Cloud-Strategie und Engineering-Leadership – von Marafis."
+    }
+  },
+
+  "industries": {
+    "financial": "Finanzdienstleistungen",
+    "insurance": "Versicherungen & InsurTech",
+    "e-commerce": "E-Commerce & Handel",
+    "telecommunications": "Telekommunikation",
+    "cloud": "Cloud- & SaaS-Plattformen",
+    "enterprise": "Unternehmen & B2B"
+  },
+
+  "marqueeItems": {
+    "solution-architecture": "Lösungsarchitektur",
+    "cloud-transformation": "Cloud-Transformation",
+    "microservices-design": "Microservices-Design",
+    "ai-enabled-systems": "KI-gestützte Systeme",
+    "devops-observability": "DevOps & Observability",
+    "platform-engineering": "Plattform-Engineering",
+    "digital-modernisation": "Digitale Modernisierung",
+    "event-driven-architecture": "Event-Driven Architektur"
+  },
+
+  "sections": {
+    "about": {
+      "who-we-are": "Wer wir sind",
+      "title-part1": "Wo",
+      "title-part2": "technische Tiefe",
+      "title-part3": "auf strategische Vision trifft",
+
+      "section-body-part1": "Marafis ist eine spezialisierte Technologieberatung, gegründet auf einer klaren Überzeugung: Herausragende Software- und Architekturentscheidungen sind die wertvollste Investition eines Unternehmens. Wir bringen über 20 Jahre praktische Erfahrung in Engineering und technischer Führung in jedes Projekt ein.",
+
+      "section-body-part2": "Von Greenfield-Plattformen bis hin zu komplexen Legacy-Modernisierungen – in den Bereichen Finance, Versicherungen, E-Commerce und Telekommunikation haben wir die wichtigsten Initiativen erfolgreich begleitet.",
+
+      "years-experience": "Jahre Erfahrung",
+      "projects-delivered": "Abgeschlossene Projekte",
+      "industry-sectors": "Branchen",
+      "cloud-platforms": "Cloud-Plattformen",
+
+      "pillar-text1-strong": "Architektur als Grundlage.",
+      "pillar-text1": "Wir entwerfen, bevor wir entwickeln – jede Entscheidung ist bewusst, dokumentiert und auf Ihre Geschäftsziele ausgerichtet.",
+
+      "pillar-text2-strong": "Praktische Umsetzung.",
+      "pillar-text2": "Wir liefern keine reinen Konzeptpapiere. Unsere Berater schreiben Code, führen Teams und übernehmen Verantwortung bis zur Umsetzung.",
+
+      "pillar-text3-strong": "Ergebnisorientierte Partnerschaft.",
+      "pillar-text3": "Unser Erfolg misst sich an Ihrem Erfolg – kürzere Time-to-Market, geringeres Risiko und nachhaltige Plattformen."
+    },
+
+    "cta": {
+      "title-part1": "Bereit, etwas",
+      "title-part2": "Außergewöhnliches zu schaffen?",
+
+      "section-body": "Ob neue Plattformarchitektur, Modernisierung eines Legacy-Systems oder Beschleunigung Ihrer Cloud-Migration – Marafis bringt die notwendige Expertise mit.",
+
+      "details": "Kontaktieren Sie uns für ein unverbindliches Erstgespräch, um Ihre Herausforderungen zu verstehen und mögliche Lösungen zu besprechen.",
+
+      "send": "Nachricht senden",
+      "services": "Leistungen ansehen"
+    },
+
+    "hero": {
+      "eyebrow": "Premium-Technologieberatung",
+      "headline1": "Architektur für Systeme",
+      "headline2-part1": "Gebaut, um",
+      "headline2-part2": "zu bestehen",
+
+      "sub": "Wir arbeiten mit zukunftsorientierten Unternehmen zusammen, um skalierbare Technologieplattformen zu entwerfen, zu entwickeln und weiterzuentwickeln – von Cloud-nativer Architektur bis KI-gestützter Transformation.",
+
+      "cta1": "Leistungen entdecken",
+      "cta2": "Gespräch starten",
+      "scroll": "Scrollen"
+    },
+
+    "industries": {
+      "section-label": "Branchen, die wir bedienen",
+      "industry": "Branche",
+      "expertise": "Expertise",
+      "industries-right-industries-quote": "Die besten Systeme sind jene, die verständlich, anpassbar und zuverlässig bleiben – lange nachdem die Architekten das Projekt verlassen haben.",
+      "industries-right-section-body": "Wir bringen tiefes Branchenverständnis in jede Zusammenarbeit ein. Das Verständnis regulatorischer, operativer und geschäftlicher Anforderungen ermöglicht es uns, Systeme zu entwerfen, die nicht nur technisch korrekt, sondern auch praxisgerecht sind."
+    },
+
+    "services": {
+      "section-label": "Unsere Expertise",
+      "section-title1": "Was wir",
+      "section-title2": "liefern",
+      "section-body": "Wir bringen jahrzehntelange Erfahrung in Engineering und Architektur in jedes Projekt ein und entwickeln Systeme, die robust, sicher und langfristig skalierbar sind.",
+
+      "service-item": {
+        "solution": {
+          "name": "Lösungs- & Systemarchitektur",
+          "description": "End-to-End-Architekturdesign, abgestimmt auf Ihren Geschäftskontext – skalierbare und sichere Blaupausen für Ihre digitale Plattform."
+        },
+        "cloud": {
+          "name": "Cloud-Transformation",
+          "description": "Strategische Migration und Modernisierung auf AWS, GCP und Azure – Multi-Cloud-Architekturen für Leistung, Effizienz und Resilienz."
+        },
+        "microservices": {
+          "name": "Microservices & Event-Driven Design",
+          "description": "Zerlegung von Monolithen, Domain-Driven Design und eventgetriebene Architekturen, die unabhängig skalieren und sich weiterentwickeln."
+        },
+        "digital": {
+          "name": "Digitale Modernisierung",
+          "description": "Modernisierung bestehender Systeme unter Beibehaltung geschäftlicher Werte und Reduktion technischer Schulden."
+        },
+        "dev-ops": {
+          "name": "DevOps & Plattform-Engineering",
+          "description": "CI/CD-Pipelines, Infrastructure-as-Code, Observability-Plattformen und Developer-Tools zur Beschleunigung der Entwicklung."
+        },
+        "ai": {
+          "name": "KI-gestützte Lösungen",
+          "description": "Integration von KI und Machine Learning in Produkte und Prozesse – von Architekturberatung bis zu produktiven KI-Systemen."
+        }
+      }
+    },
+
+    "approach": {
+      "section-label": "Unsere Vorgehensweise",
+      "approach1-title1": "Eine disziplinierte",
+      "approach1-title2": "Handwerkskunst",
+
+      "section-body": "Jedes Projekt folgt einer bewährten Methodik – strukturiert genug für konsistente Ergebnisse und flexibel genug für individuelle Anforderungen.",
+
+      "processSteps": {
+        "discovery": {
+          "title": "Analyse",
+          "description": "Tiefgehende Analyse Ihrer Systemlandschaft, Geschäftsanforderungen und Ziele als gemeinsame Grundlage."
+        },
+        "design": {
+          "title": "Architektur",
+          "description": "Erstellung fundierter Architekturkonzepte, Entscheidungsdokumente und Roadmaps mit klarer Begründung."
+        },
+        "delivery": {
+          "title": "Umsetzung",
+          "description": "Praktische Implementierung mit Qualitätskontrollen, iterativen Reviews und technischem Fokus."
+        },
+        "evolution": {
+          "title": "Weiterentwicklung",
+          "description": "Laufende Beratung, Observability-Analysen und strategische Weiterentwicklung Ihrer Plattform."
+        }
+      }
+    }
+  }
+}

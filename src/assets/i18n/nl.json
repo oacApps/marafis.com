@@ -1,0 +1,186 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Diensten",
+    "about": "Over Ons",
+    "approach": "Werkwijze",
+    "industries": "Sectoren",
+    "insights": "Inzichten",
+    "engage": "Neem Contact Op",
+    "technology-consultancy": "Technologieconsultancy"
+  },
+  "services": {
+    "label": "Onze Expertise",
+    "title": "Wat Wij Leveren",
+    "body": "Wij brengen tientallen jaren praktijkervaring in engineering en architectuur naar elke samenwerking."
+  },
+  "cta": {
+    "title": "Klaar om Iets Uitzonderlijks te Bouwen?",
+    "email": "Stuur een Bericht",
+    "services": "Bekijk Diensten",
+    "contact": "Contact",
+    "linkedin": "Volg ons op LinkedIn",
+    "facebook": "Volg ons op Facebook"
+  },
+  "footer": {
+    "footer-brand": "Hoogwaardige technologische oplossingen voor organisaties die geen concessies doen aan kwaliteit. Architectuur, cloud en digitale transformatie – geleverd met vakmanschap en zorgvuldigheid.",
+    "tagline": "Ontworpen met precisie. Geleverd met integriteit.",
+    "copy": "Marafis Technology Consultancy. Alle rechten voorbehouden.",
+    "company": "Bedrijf",
+    "services": "Diensten",
+    "about": "Over Ons",
+    "our-approach": "Onze Werkwijze",
+    "industries": "Sectoren",
+    "contact-us": "Contact"
+  },
+  "blog": {
+    "readMore": "Lees artikel",
+    "relatedTitle": "Gerelateerde Inzichten",
+    "relatedLabel": "Verder Lezen",
+    "notFound": "Artikel niet gevonden.",
+    "backToAll": "Alle Inzichten",
+    "share": "Delen",
+    "related": "Gerelateerd",
+    "insights": "Inzichten",
+    "reading": "Leestijd",
+    "back-to-insights": "Terug naar Inzichten",
+    "topics": "Onderwerpen",
+    "most-read": "Meest Gelezen",
+    "recent-articles": "Recente Artikelen",
+    "featured-article": "Uitgelicht Artikel",
+    "principal-architect": "Lead Architect",
+    "read": "Lezen",
+    "cta": {
+      "heading": "Bouwt u aan iets dat bedoeld is om",
+      "heading-sub": "lang mee te gaan?",
+      "body": "Marafis brengt meer dan 20 jaar ervaring in architectuur en engineering naar organisaties die systemen nodig hebben die ook op de lange termijn waarde blijven leveren.",
+      "contact": "Neem contact op",
+      "services": "Bekijk diensten"
+    },
+    "hero": {
+      "eyebrow": "Inzichten & Perspectieven",
+      "title1": "Denken in",
+      "title2": "Systemen",
+      "sub": "Architectuurbeslissingen, cloudstrategie en technisch leiderschap – vanuit de expertise van Marafis."
+    }
+  },
+  "industries": {
+    "financial": "Financiële Dienstverlening",
+    "insurance": "Verzekeringen & InsurTech",
+    "e-commerce": "E-commerce & Retail",
+    "telecommunications": "Telecommunicatie",
+    "cloud": "Cloud- & SaaS-platformen",
+    "enterprise": "Enterprise & B2B"
+  },
+  "marqueeItems": {
+    "solution-architecture": "Solution Architecture",
+    "cloud-transformation": "Cloudtransformatie",
+    "microservices-design": "Microservices-ontwerp",
+    "ai-enabled-systems": "AI-gedreven Systemen",
+    "devops-observability": "DevOps & Observability",
+    "platform-engineering": "Platform Engineering",
+    "digital-modernisation": "Digitale Modernisering",
+    "event-driven-architecture": "Event-Driven Architectuur"
+  },
+  "sections": {
+    "about": {
+      "who-we-are": "Wie Wij Zijn",
+      "title-part1": "Waar",
+      "title-part2": "Technische Diepgang",
+      "title-part3": "en Strategische Visie Samenkomen",
+      "section-body-part1": "Marafis is een gespecialiseerde technologieconsultancy, gebouwd op één overtuiging: uitzonderlijke software en doordachte architectuurbeslissingen vormen de meest waardevolle investering die een organisatie kan doen. Wij brengen meer dan twintig jaar praktijkervaring in engineering en technisch leiderschap naar iedere opdracht.",
+      "section-body-part2": "Van greenfield-platformen tot complexe moderniseringstrajecten binnen finance, verzekeringen, e-commerce en telecom – wij hebben leiding gegeven aan de projecten die er echt toe doen.",
+      "years-experience": "Jaar Ervaring",
+      "projects-delivered": "Geleverde Projecten",
+      "industry-sectors": "Sectoren",
+      "cloud-platforms": "Cloudplatformen",
+      "pillar-text1-strong": "Architectuur als vertrekpunt.",
+      "pillar-text1": "Wij ontwerpen voordat we bouwen, zodat iedere beslissing bewust wordt genomen, gedocumenteerd is en aansluit op uw bedrijfsdoelstellingen.",
+      "pillar-text2-strong": "Praktische uitvoering.",
+      "pillar-text2": "Wij leveren meer dan adviesrapporten. Onze consultants schrijven code, begeleiden teams en blijven betrokken tot het resultaat is gerealiseerd.",
+      "pillar-text3-strong": "Focus op resultaat.",
+      "pillar-text3": "Ons succes wordt gemeten aan uw succes: een snellere time-to-market, minder operationeel risico en platformen die duurzaam waarde leveren."
+    },
+    "cta": {
+      "title-part1": "Klaar om Iets",
+      "title-part2": "Uitzonderlijks te Bouwen?",
+      "section-body": "Of u nu een nieuw platform ontwerpt, een legacy-systeem moderniseert of een cloudmigratie versnelt – Marafis beschikt over de expertise om het goed aan te pakken.",
+      "details": "Neem contact op om uw uitdagingen te bespreken. Wij bieden vrijblijvend een eerste kennismakingsgesprek om uw situatie te begrijpen en te verkennen hoe wij kunnen bijdragen.",
+      "send": "Stuur een Bericht",
+      "services": "Bekijk Diensten"
+    },
+    "hero": {
+      "eyebrow": "Premium Technologieconsultancy",
+      "headline1": "Architectuur voor Systemen",
+      "headline2-part1": "Gebouwd om te",
+      "headline2-part2": "Blijven Bestaan",
+      "sub": "Wij helpen vooruitstrevende organisaties bij het ontwerpen, bouwen en doorontwikkelen van schaalbare technologieplatformen – van cloud-native architectuur tot AI-gedreven transformatie.",
+      "cta1": "Ontdek Onze Diensten",
+      "cta2": "Start een Gesprek",
+      "scroll": "Scroll"
+    },
+    "industries": {
+      "section-label": "Sectoren die Wij Bedienen",
+      "industry": "Sector",
+      "expertise": "Expertise",
+      "industries-right-industries-quote": "De beste systemen zijn systemen die begrijpelijk, aanpasbaar en betrouwbaar blijven – lang nadat de architecten zijn vertrokken.",
+      "industries-right-section-body": "Wij brengen diepgaande domeinkennis mee naar elke sector waarin wij actief zijn. Door inzicht te hebben in de regelgeving, compliance-eisen en operationele uitdagingen van uw branche ontwerpen wij systemen die niet alleen technisch sterk zijn, maar ook daadwerkelijk aansluiten op de praktijk."
+    },
+    "services": {
+      "section-label": "Onze Expertise",
+      "section-title1": "Wat Wij",
+      "section-title2": "Leveren",
+      "section-body": "Wij brengen tientallen jaren ervaring in engineering en architectuur naar iedere opdracht en ontwerpen systemen die robuust, veilig en klaar zijn voor duurzame groei.",
+      "service-item": {
+        "solution": {
+          "name": "Solution & Systeemarchitectuur",
+          "description": "End-to-end architectuurontwerp afgestemd op uw bedrijfscontext – schaalbare en veilige blauwdrukken die de basis vormen van uw digitale platform."
+        },
+        "cloud": {
+          "name": "Cloudtransformatie",
+          "description": "Strategische migratie en modernisering op AWS, GCP en Azure – multi-cloudarchitecturen ontworpen voor prestaties, kostenefficiëntie en veerkracht."
+        },
+        "microservices": {
+          "name": "Microservices & Event-Driven Ontwerp",
+          "description": "Transformeer monolithische systemen naar domeingedreven services en event-driven architecturen die onafhankelijk kunnen schalen en meegroeien met uw organisatie."
+        },
+        "digital": {
+          "name": "Digitale Modernisering",
+          "description": "Transformeer legacy-platformen naar moderne en onderhoudbare systemen, waarbij bestaande bedrijfswaarde behouden blijft en technische schuld wordt verminderd."
+        },
+        "dev-ops": {
+          "name": "DevOps & Platform Engineering",
+          "description": "CI/CD-pijplijnen, infrastructure-as-code, observability-platformen en developer tooling die ontwikkeling versnellen en operationele risico's verminderen."
+        },
+        "ai": {
+          "name": "AI-gedreven Oplossingen",
+          "description": "Integreer AI en machine learning in uw producten en processen – van strategisch advies tot de ontwikkeling van productieklare AI-oplossingen op schaal."
+        }
+      }
+    },
+    "approach": {
+      "section-label": "Onze Werkwijze",
+      "approach1-title1": "Een Gedisciplineerd",
+      "approach1-title2": "Vakmanschap",
+      "section-body": "Elke opdracht volgt een bewezen aanpak: gestructureerd genoeg om consistente resultaten te leveren en flexibel genoeg om aan te sluiten op uw specifieke situatie.",
+      "processSteps": {
+        "discovery": {
+          "title": "Verkennen",
+          "description": "Een grondige analyse van uw technologielandschap, bedrijfscontext, beperkingen en doelstellingen om een gedeelde basis te creëren."
+        },
+        "design": {
+          "title": "Ontwerpen",
+          "description": "Uitwerken van solide architectuurblauwdrukken, beslisdocumentatie, trade-off-analyses en roadmaps met een heldere onderbouwing."
+        },
+        "delivery": {
+          "title": "Realiseren",
+          "description": "Praktische implementatie met ingebouwde kwaliteitscontroles, iteratieve evaluaties en focus op technische excellentie."
+        },
+        "evolution": {
+          "title": "Doorontwikkelen",
+          "description": "Doorlopende advisering, observability-evaluaties en strategische begeleiding om ervoor te zorgen dat uw platform blijft aansluiten bij uw ambities."
+        }
+      }
+    }
+  }
+}

@@ -25,11 +25,11 @@
   </svg>
 
   <div class="hero-content">
-    <div class="hero-eyebrow">Premium Technology Consultancy</div>
+    <div class="hero-eyebrow">{{ 'sections.hero.eyebrow' | translate }}</div>
 
-    <h1 class="hero-headline">
-      Architecting Systems<br>
-      Built to <em>Endure</em>
+      <h1 class="hero-headline">
+        {{ 'sections.hero.headline1' | translate }}<br>
+        {{ 'sections.hero.headline2-part1' | translate }} <em>{{ 'sections.hero.headline2-part2' | translate }}</em>
     </h1>
 
     <div class="hero-divider">
@@ -38,19 +38,16 @@
       <div class="hero-divider-line"></div>
     </div>
 
-    <p class="hero-sub">
-      We partner with forward-thinking enterprises to design, build, and evolve scalable
-      technology platforms - from cloud-native architecture to AI-enabled transformation.
-    </p>
+    <p class="hero-sub">{{ 'sections.hero.sub' | translate }}</p>
 
     <div class="hero-actions">
-      <a [routerLink]="['/']" fragment="services" class="btn-primary">Explore Services</a>
-      <a [routerLink]="['/']" fragment="cta"      class="btn-secondary">Start a Conversation</a>
+      <a [routerLink]="['/']" fragment="services" class="btn-primary">{{ 'sections.hero.cta1' | translate }}</a>
+      <a [routerLink]="['/']" fragment="cta"      class="btn-secondary">{{ 'sections.hero.cta2' | translate }}</a>
     </div>
   </div>
 
   <div class="hero-scroll" aria-hidden="true">
-    <span class="scroll-text">Scroll</span>
+    <span class="scroll-text">{{ 'sections.hero.scroll' | translate }}</span>
     <div class="scroll-line"></div>
   </div>
 </section>

@@ -7,11 +7,12 @@ import {RecentArticle} from '@pages/blog/common/recent-article/recent-article';
 import {MostReadArticle} from '@pages/blog/common/most-read-article/most-read-article';
 import {ActivatedRoute, Router} from '@angular/router';
 import {ArticleTopics} from '@pages/blog/common/article-topics/article-topics';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-blog-index',
   standalone: true,
-  imports: [CommonModule, FeaturedArticle, RecentArticle, MostReadArticle, ArticleTopics],
+  imports: [CommonModule, FeaturedArticle, RecentArticle, MostReadArticle, ArticleTopics, TranslatePipe],
   templateUrl: './blog-index.component.html',
   styleUrls: ['./blog-index.component.scss']
 })

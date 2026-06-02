@@ -12,7 +12,7 @@ import {ServiceItem} from '@shared/models/Service.model';
 export class ContentService {
 
   // ── NAVIGATION ────────────────────────────────────────────────────
-  readonly navLinks: NavLink[] = [
+/*  readonly navLinks: NavLink[] = [
     { label: 'Home',       fragment: '', route: '/' },
     { label: 'Services',   fragment: 'services'     },
     { label: 'About',      fragment: 'about'        },
@@ -20,27 +20,35 @@ export class ContentService {
     { label: 'Industries', fragment: 'industries'   },
     { label: 'Insights',   route: '/insights'       },
     { label: 'Contact',    fragment: 'cta'          },
+  ];*/
+
+  readonly navLinks: NavLink[] = [
+    { label: 'nav.home',       fragment: '', route: '/' },
+    { label: 'nav.services',   fragment: 'services'     },
+    { label: 'nav.about',      fragment: 'about'        },
+    { label: 'nav.approach',   fragment: 'process'      },
+    { label: 'nav.industries', fragment: 'industries'   },
+    { label: 'nav.insights',   route: '/insights'       },
   ];
 
   // ── MARQUEE ───────────────────────────────────────────────────────
   readonly marqueeItems: string[] = [
-    'Solution Architecture',
-    'Cloud Transformation',
-    'Microservices Design',
-    'AI-Enabled Systems',
-    'DevOps & Observability',
-    'Platform Engineering',
-    'Digital Modernisation',
-    'Event-Driven Architecture',
+    'marqueeItems.solution-architecture',
+    'marqueeItems.cloud-transformation',
+    'marqueeItems.microservices-design',
+    'marqueeItems.ai-enabled-systems',
+    'marqueeItems.devops-observability',
+    'marqueeItems.platform-engineering',
+    'marqueeItems.digital-modernisation',
+    'marqueeItems.event-driven-architecture',
   ];
 
   // ── SERVICES ──────────────────────────────────────────────────────
   readonly services: ServiceItem[] = [
     {
       number: '01',
-      name: 'Solution & System Architecture',
-      description:
-        'End-to-end architecture design tailored to your business context — scalable, secure blueprints that form the backbone of your digital platform.',
+      name: 'sections.services.service-item.solution.name',
+      description: 'sections.services.service-item.solution.description',
       svgPath: `
         <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="1" y="1" width="40" height="40" stroke="#C9A84C" stroke-width="0.5"/>
@@ -54,9 +62,8 @@ export class ContentService {
     },
     {
       number: '02',
-      name: 'Cloud Transformation',
-      description:
-        'Strategic migration and modernisation across AWS, GCP, and Azure — multi-cloud architectures designed for performance, cost efficiency, and resilience.',
+      name: 'sections.services.service-item.cloud.name',
+      description: 'sections.services.service-item.cloud.description',
       svgPath: `
         <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M4 32 L21 10 L38 32" stroke="#C9A84C" stroke-width="0.5"/>
@@ -67,9 +74,8 @@ export class ContentService {
     },
     {
       number: '03',
-      name: 'Microservices & Event-Driven Design',
-      description:
-        'Decompose monoliths, design domain-driven services, and build event-driven architectures that scale independently and evolve with your organisation.',
+      name: 'sections.services.service-item.microservices.name',
+      description: 'sections.services.service-item.microservices.description',
       svgPath: `
         <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="6"  y="6"  width="12" height="12" stroke="#C9A84C" stroke-width="0.5"/>
@@ -84,9 +90,8 @@ export class ContentService {
     },
     {
       number: '04',
-      name: 'Digital Modernisation',
-      description:
-        'Evolve legacy platforms into modern, maintainable systems — preserving business value while eliminating technical debt and unlocking new capability.',
+      name: 'sections.services.service-item.digital.name',
+      description: 'sections.services.service-item.digital.description',
       svgPath: `
         <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
           <polyline points="6,32 16,18 24,24 36,8" stroke="#C9A84C" stroke-width="0.5" fill="none"/>
@@ -97,9 +102,8 @@ export class ContentService {
     },
     {
       number: '05',
-      name: 'DevOps & Platform Engineering',
-      description:
-        'CI/CD pipelines, infrastructure-as-code, observability platforms, and developer experience tooling that accelerate delivery and reduce operational risk.',
+      name: 'sections.services.service-item.dev-ops.name',
+      description: 'sections.services.service-item.dev-ops.description',
       svgPath: `
         <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="21" cy="21" r="14" stroke="#C9A84C" stroke-width="0.5" stroke-dasharray="3 3"/>
@@ -111,9 +115,8 @@ export class ContentService {
     },
     {
       number: '06',
-      name: 'AI-Enabled Solutions',
-      description:
-        'Integrate AI and machine learning into your products and operations — from architecture advisory to building production-grade, AI-powered systems at scale.',
+      name: 'sections.services.service-item.ai.name',
+      description: 'sections.services.service-item.ai.description',
       svgPath: `
         <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M21 4 L36 12 L36 28 L21 36 L6 28 L6 12 Z" stroke="#C9A84C" stroke-width="0.5"/>
@@ -126,48 +129,44 @@ export class ContentService {
 
   // ── STATS ─────────────────────────────────────────────────────────
   readonly stats: Stat[] = [
-    { value: '20', suffix: '+', label: 'Years Experience'  },
-    { value: '50', suffix: '+', label: 'Projects Delivered' },
-    { value: '6',               label: 'Industry Sectors'  },
-    { value: '3',               label: 'Cloud Platforms'   },
+    { value: '20', suffix: '+', label: 'sections.about.years-experience'  },
+    { value: '50', suffix: '+', label: 'sections.about.projects-delivered' },
+    { value: '6',               label: 'sections.about.industry-sectors'  },
+    { value: '3',               label: 'sections.about.cloud-platforms'   },
   ];
 
   // ── PROCESS STEPS ─────────────────────────────────────────────────
   readonly processSteps: ProcessStep[] = [
     {
       numeral: 'I',
-      title: 'Discover',
-      description:
-        'Deep-dive into your technology landscape, business context, constraints, and objectives to establish a shared foundation.',
+      title: 'sections.approach.processSteps.discovery.title',
+      description:'sections.approach.processSteps.discovery.description',
     },
     {
       numeral: 'II',
-      title: 'Architect',
-      description:
-        'Produce rigorous architectural blueprints — decision records, trade-off analyses, and roadmaps with clear rationale.',
+      title: 'sections.approach.processSteps.design.title',
+      description:'sections.approach.processSteps.design.description',
     },
     {
       numeral: 'III',
-      title: 'Deliver',
-      description:
-        'Hands-on implementation with embedded quality gates, iterative review cycles, and engineering excellence throughout.',
+      title: 'sections.approach.processSteps.delivery.title',
+      description:'sections.approach.processSteps.delivery.description',
     },
     {
       numeral: 'IV',
-      title: 'Evolve',
-      description:
-        'Ongoing advisory, observability review, and strategic guidance to ensure your platform continues to serve your ambitions.',
+      title: 'sections.approach.processSteps.evolution.title',
+      description:'sections.approach.processSteps.evolution.description',
     },
   ];
 
   // ── INDUSTRIES ────────────────────────────────────────────────────
   readonly industries: Industry[] = [
-    { name: 'Financial Services'      },
-    { name: 'Insurance & InsurTech'   },
-    { name: 'E-Commerce & Retail'     },
-    { name: 'Telecommunications'      },
-    { name: 'Cloud & SaaS Platforms'  },
-    { name: 'Enterprise & B2B'        },
+    { name: 'industries.financial'          },
+    { name: 'industries.insurance'          },
+    { name: 'industries.e-commerce'         },
+    { name: 'industries.telecommunications' },
+    { name: 'industries.cloud'              },
+    { name: 'industries.enterprise'         },
   ];
 
   readonly techTags: string[] = [
@@ -195,9 +194,9 @@ export class ContentService {
   ];
 
   readonly footerCompany: { label: string; fragment: string }[] = [
-    { label: 'About Marafis', fragment: 'about'      },
-    { label: 'Our Approach',  fragment: 'process'    },
-    { label: 'Industries',    fragment: 'industries' },
-    { label: 'Contact Us',    fragment: 'cta'        },
+    { label: 'footer.about', fragment: 'about'      },
+    { label: 'footer.our-approach',  fragment: 'process'    },
+    { label: 'footer.industries',    fragment: 'industries' },
+    { label: 'footer.contact-us',    fragment: 'cta'        },
   ];
 }

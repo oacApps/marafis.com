@@ -12,7 +12,7 @@
                   <span class="stat-num">
                     {{ stat.value }}<span class="stat-suffix">{{ stat.suffix }}</span>
                   </span>
-                  <span class="stat-label">{{ stat.label }}</span>
+                  <span class="stat-label">{{ stat.label | translate }}</span>
                 </div>
               }
             </div>
@@ -32,46 +32,26 @@
 
       <!-- Content -->
       <div class="about-content" mrfReveal="right">
-        <div class="section-label">Who We Are</div>
+        <div class="section-label">{{ 'sections.about.who-we-are' | translate }}</div>
         <h2 class="section-title">
-          Where <em>Engineering Depth</em> Meets Strategic Vision
+          {{'sections.about.title-part1' | translate}} <em>{{'sections.about.title-part2' | translate}}</em> {{'sections.about.title-part3' | translate}}
         </h2>
 
-        <p class="section-body">
-          Marafis is a specialist technology consultancy founded on a single conviction:
-          that exceptional software and architecture decisions are the highest-leverage
-          investment a business can make. We bring over two decades of hands-on engineering
-          and technical leadership to every engagement.
-        </p>
-        <p class="section-body" style="margin-top: 1rem;">
-          From greenfield platforms to complex legacy transformations - across finance,
-          insurance, e-commerce, and telecoms - we've led the initiatives that matter most.
-        </p>
+        <p class="section-body">{{'sections.about.section-body-part1' | translate}}</p>
+        <p class="section-body" style="margin-top: 1rem;">{{'sections.about.section-body-part2' | translate}}</p>
 
         <div class="about-pillars">
           <div class="pillar">
             <div class="pillar-dot"></div>
-            <p class="pillar-text">
-              <strong>Architecture-first thinking.</strong>
-              We design before we build - ensuring every decision is intentional, documented,
-              and aligned to your business goals.
-            </p>
+            <p class="pillar-text"><strong>{{'sections.about.pillar-text1-strong' | translate}}</strong> {{'sections.about.pillar-text1' | translate}}</p>
           </div>
           <div class="pillar">
             <div class="pillar-dot"></div>
-            <p class="pillar-text">
-              <strong>Hands-on delivery.</strong>
-              We don't hand off slide decks. Our consultants write code, lead teams, and stay
-              accountable through delivery.
-            </p>
+            <p class="pillar-text"><strong>{{'sections.about.pillar-text2-strong' | translate}}</strong> {{'sections.about.pillar-text2' | translate}}</p>
           </div>
           <div class="pillar">
             <div class="pillar-dot"></div>
-            <p class="pillar-text">
-              <strong>Outcome-oriented partnership.</strong>
-              We measure our success by yours - reduced time-to-market, lower operational
-              risk, and platforms that last.
-            </p>
+            <p class="pillar-text"><strong>{{'sections.about.pillar-text3-strong' | translate}}</strong> {{'sections.about.pillar-text3' | translate}}</p>
           </div>
         </div>
       </div>

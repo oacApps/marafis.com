@@ -4,10 +4,11 @@ import {DomSanitizer, Meta, SafeHtml, Title} from '@angular/platform-browser';
 import {Article} from '@shared/models/Content.model';
 import {StrapiService} from '@core/services/strapi.service';
 import {DatePipe, isPlatformBrowser} from '@angular/common';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'mrf-article-details',
-  imports: [RouterLink, DatePipe],
+  imports: [RouterLink, DatePipe, TranslatePipe],
   templateUrl: './article-details.html',
   styleUrl: './article-details.scss',
 })

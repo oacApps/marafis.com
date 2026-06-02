@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "home":   "Home",
+    "services":   "Services",
+    "about":      "About",
+    "approach":   "Approach",
+    "industries": "Industries",
+    "insights":   "Insights",
+    "engage":     "Engage Us",
+    "technology-consultancy": "Technology Consultancy"
+  },
+  "services": {
+    "label":    "Our Expertise",
+    "title":    "What We Deliver",
+    "body":     "We bring decades of hands-on engineering..."
+  },
+
+  "cta": {
+    "title":    "Ready to Build Something Remarkable?",
+    "email":    "Send a Message",
+    "services": "View Services",
+    "contact":  "Contact",
+    "linkedin": "Connect on LinkedIn",
+    "facebook": "Follow on Facebook"
+  },
+  "footer": {
+    "footer-brand": "Precision-crafted technology solutions for enterprises that demand excellence. Architecture, cloud, and digital transformation - delivered with rigour and care.",
+    "tagline":  "Engineered with precision. Delivered with integrity.",
+    "copy":     "Marafis Technology Consultancy. All rights reserved.",
+    "company":  "Company",
+    "services": "Services",
+    "about":    "About",
+    "our-approach": "Our Approach",
+    "industries": "Industries",
+    "contact-us": "Contact us"
+  },
+  "blog": {
+    "readMore":     "Read article",
+    "relatedTitle": "Related Insights",
+    "relatedLabel": "Continue Reading",
+    "notFound":     "Article not found.",
+    "backToAll":    "All Insights",
+    "share":        "Share",
+    "related":      "Related",
+    "insights":     "Insights",
+    "reading":      "Reading",
+    "back-to-insights": "Back to Insights",
+    "topics":        "Topics",
+    "most-read":      "Most Read",
+    "recent-articles": "Recent Articles",
+    "featured-article": "Featured Article",
+    "principal-architect": "Principal Architect",
+    "read":       "Read",
+    "cta": {
+      "heading": "Building something that needs to",
+      "heading-sub": "last?",
+      "body":    "Marafis brings 20+ years of hands-on architecture and engineering leadership to enterprises that demand systems built for the long term.",
+      "contact": "Get in touch",
+      "services":"View services"
+    },
+    "hero": {
+      "eyebrow": "Insights &amp; Perspectives",
+      "title1": "Thinking in",
+      "title2": "Systems",
+      "sub":    "Architecture decisions, cloud strategy, and engineering leadership — from the Marafis consultancy."
+    }
+  },
+  "industries": {
+    "financial": "Financial Services",
+    "insurance": "Insurance & InsurTech",
+    "e-commerce": "E-Commerce & Retail",
+    "telecommunications": "Telecommunications",
+    "cloud": "Cloud & SaaS Platforms",
+    "enterprise": "Enterprise & B2B"
+  },
+  "marqueeItems": {
+    "solution-architecture":"Solution Architecture",
+    "cloud-transformation":"Cloud Transformation",
+    "microservices-design":"Microservices Design",
+    "ai-enabled-systems":"AI-Enabled Systems",
+    "devops-observability":"DevOps & Observability",
+    "platform-engineering":"Platform Engineering",
+    "digital-modernisation":"Digital Modernisation",
+    "event-driven-architecture":"Event-Driven Architecture"
+  },
+  "sections": {
+    "about": {
+      "who-we-are":    "Who We Are",
+      "title-part1":    "Where",
+      "title-part2":    "Engineering Depth",
+      "title-part3":    "Meets Strategic Vision",
+      "section-body-part1": "Marafis is a specialist technology consultancy founded on a single conviction: that exceptional software and architecture decisions are the highest-leverage investment a business can make. We bring over two decades of hands-on engineering and technical leadership to every engagement.",
+      "section-body-part2": "From greenfield platforms to complex legacy transformations - across finance, insurance, e-commerce, and telecoms - we've led the initiatives that matter most." ,
+      "years-experience": "Years of Experience",
+      "projects-delivered": "Projects Delivered",
+      "industry-sectors": "Industry Sectors",
+      "cloud-platforms": "Cloud Platforms",
+      "pillar-text1-strong": "Architecture-first thinking.",
+      "pillar-text1": "We design before we build - ensuring every decision is intentional, documented, and aligned to your business goals.",
+      "pillar-text2-strong": "Hands-on delivery.",
+      "pillar-text2": "We don't hand off slide decks. Our consultants write code, lead teams, and stay accountable through delivery.",
+      "pillar-text3-strong": "Outcome-oriented partnership.",
+      "pillar-text3": "We measure our success by yours - reduced time-to-market, lower operational risk, and platforms that last."
+    },
+    "cta": {
+      "title-part1": "Ready to Build Something",
+      "title-part2": "Remarkable?",
+      "section-body": "Whether you're architecting a new platform, modernising a legacy system, or accelerating a cloud migration - Marafis brings the expertise to do it right.",
+      "details": "Get in touch to discuss your challenges. We offer an initial discovery conversation at no obligation - to understand your context and share how we might help.",
+      "send": "Send a Message",
+      "services":"View Services"
+     },
+    "hero": {
+      "eyebrow":   "Premium Technology Consultancy",
+      "headline1": "Architecting Systems",
+      "headline2-part1": "Built to ",
+      "headline2-part2": "Endure",
+      "sub":       "We partner with forward-thinking enterprises to design, build, and evolve scalable technology platforms - from cloud-native architecture to AI-enabled transformation.",
+      "cta1":      "Explore Services",
+      "cta2":      "Start a Conversation",
+      "scroll":    "Scroll"
+    },
+    "industries": {
+      "section-label": "Sectors We Serve",
+      "industry": "Industry",
+      "expertise": "Expertise",
+      "industries-right-industries-quote": "The best systems are those that remain comprehensible, adaptable, and trustworthy - long after the architects have left the room.",
+      "industries-right-section-body": "We bring domain literacy to every sector we serve. Understanding the regulatory, compliance, and operational pressures of your industry allows us to design systems that are not merely technically sound, but genuinely fit for purpose."
+    },
+    "services": {
+      "section-label": "Our Expertise",
+      "section-title1": "What We",
+      "section-title2": "Deliver",
+      "section-body": "We bring decades of hands-on engineering and architectural leadership to every engagement - designing systems that are resilient, secure, and engineered for long-term growth.",
+      "service-item": {
+        "solution": {
+          "name": "Solution & System Architecture",
+          "description": "End-to-end architecture design tailored to your business context — scalable, secure blueprints that form the backbone of your digital platform."
+        },
+        "cloud": {
+          "name": "Cloud Transformation",
+          "description": "Strategic migration and modernisation across AWS, GCP, and Azure — multi-cloud architectures designed for performance, cost efficiency, and resilience."
+        },
+        "microservices": {
+          "name": "Microservices & Event-Driven Design",
+          "description": "Decompose monoliths, design domain-driven services, and build event-driven architectures that scale independently and evolve with your organisation."
+        },
+        "digital": {
+          "name": "Digital Modernisation",
+          "description": "Evolve legacy platforms into modern, maintainable systems — preserving business value while eliminating technical debt and unlocking new capability."
+        },
+        "dev-ops": {
+          "name": "DevOps & Platform Engineering",
+          "description": "CI/CD pipelines, infrastructure-as-code, observability platforms, and developer experience tooling that accelerate delivery and reduce operational risk."
+        },
+        "ai": {
+          "name": "AI-Enabled Solutions",
+          "description": "Integrate AI and machine learning into your products and operations — from architecture advisory to building production-grade, AI-powered systems at scale."
+        }
+      }
+    },
+    "approach": {
+      "section-label": "Our Approach",
+      "approach1-title1": "A Disciplined",
+      "approach1-title2": "Craft",
+      "section-body": "Every engagement follows a proven methodology — rigorous enough to produce consistent results, flexible enough to meet you where you are.",
+      "processSteps": {
+        "discovery": {
+          "title": "Discovery",
+          "description": "Deep-dive into your technology landscape, business context, constraints, and objectives to establish a shared foundation."
+        },
+        "design": {
+          "title": "Architect",
+          "description": "Produce rigorous architectural blueprints — decision records, trade-off analyses, and roadmaps with clear rationale."
+        },
+        "delivery": {
+          "title": "Deliver",
+          "description": "Hands-on implementation with embedded quality gates, iterative review cycles, and engineering excellence throughout."
+        },
+        "evolution": {
+          "title": "Evolve",
+          "description": "Ongoing advisory, observability review, and strategic guidance to ensure your platform continues to serve your ambitions."
+        }
+      }
+    }
+  }
+}

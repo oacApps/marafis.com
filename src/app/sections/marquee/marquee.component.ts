@@ -1,10 +1,13 @@
 import { Component, inject } from '@angular/core';
 import { ContentService } from '@core/services/content.service';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'mrf-marquee',
   standalone: true,
-  imports: [],
+  imports: [
+    TranslatePipe
+  ],
   templateUrl: './marquee.component.html',
   styleUrls: ['./marquee.component.scss'],
 })

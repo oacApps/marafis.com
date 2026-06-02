@@ -2,12 +2,9 @@
   <div class="container">
 
     <div class="process-header" mrfReveal="up">
-      <div class="section-label">Our Approach</div>
-      <h2 class="section-title">A Disciplined <em>Craft</em></h2>
-      <p class="section-body">
-        Every engagement follows a proven methodology — rigorous enough to produce consistent
-        results, flexible enough to meet you where you are.
-      </p>
+      <div class="section-label">{{"sections.approach.section-label" | translate}}</div>
+      <h2 class="section-title">{{"sections.approach.approach1-title1" | translate}} <em>{{"sections.approach.approach1-title2" | translate}}</em></h2>
+      <p class="section-body">{{"sections.approach.section-body" | translate}}</p>
     </div>
 
     <div class="process-steps">
@@ -16,8 +13,8 @@
           <div class="step-circle">
             <span class="step-num">{{ step.numeral }}</span>
           </div>
-          <div class="step-title">{{ step.title }}</div>
-          <p class="step-desc">{{ step.description }}</p>
+          <div class="step-title">{{ step.title | translate }}</div>
+          <p class="step-desc">{{ step.description | translate }}</p>
         </div>
       }
     </div>

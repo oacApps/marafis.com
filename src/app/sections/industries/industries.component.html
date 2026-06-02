@@ -4,13 +4,13 @@
 
       <!-- Left: label + list -->
       <div>
-        <div class="section-label" mrfReveal="up">Sectors We Serve</div>
-        <h2 class="section-title" mrfReveal="up">Industry <em>Expertise</em></h2>
+        <div class="section-label" mrfReveal="up">{{ 'sections.industries.section-label' | translate }}</div>
+        <h2 class="section-title" mrfReveal="up">{{ 'sections.industries.industry' | translate }} <em>{{ 'sections.industries.expertise' | translate }}</em></h2>
 
         <div class="industry-list">
           @for (ind of content.industries; track ind.name; let i = $index) {
             <div class="industry-item" mrfReveal="up" [revealDelay]="0.05 + i * 0.05">
-              {{ ind.name }}
+              {{ ind.name | translate }}
             </div>
           }
         </div>
@@ -18,16 +18,10 @@
 
       <!-- Right: quote + body + tech tags -->
       <div class="industries-right" mrfReveal="right">
-        <p class="industries-quote">
-          The best systems are those that remain comprehensible, adaptable, and trustworthy -
-          long after the architects have left the room.
-        </p>
 
-        <p class="section-body">
-          We bring domain literacy to every sector we serve. Understanding the regulatory,
-          compliance, and operational pressures of your industry allows us to design systems
-          that are not merely technically sound, but genuinely fit for purpose.
-        </p>
+        <p class="industries-quote">{{ 'sections.industries.industries-right-industries-quote' | translate }}</p>
+
+        <p class="section-body">{{ 'sections.industries.industries-right-section-body' | translate }}</p>
 
         <div class="tech-tags">
           @for (tag of content.techTags; track tag) {

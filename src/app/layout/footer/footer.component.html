@@ -6,17 +6,14 @@
       <div class="footer-brand">
         <a routerLink="/" class="nav-logo">
           <span class="logo-mark">MARAFIS</span>
-          <span class="logo-sub">Technology Consultancy</span>
+          <span class="logo-sub">{{ 'nav.technology-consultancy' | translate}}</span>
         </a>
-        <p>
-          Precision-crafted technology solutions for enterprises that demand excellence.
-          Architecture, cloud, and digital transformation - delivered with rigour and care.
-        </p>
+        <p>{{ 'footer.footer-brand' | translate }}</p>
       </div>
 
       <!-- Services -->
       <div>
-        <div class="footer-col-title">Services</div>
+        <div class="footer-col-title">{{ 'nav.services' | translate }}</div>
         <ul class="footer-links">
           @for (item of content.footerServices; track item.label) {
             <li>
@@ -28,11 +25,11 @@
 
       <!-- Company -->
       <div>
-        <div class="footer-col-title">Company</div>
+        <div class="footer-col-title">{{ 'footer.company' | translate }}</div>
         <ul class="footer-links">
           @for (item of content.footerCompany; track item.label) {
             <li>
-              <a [routerLink]="['/']" [fragment]="item.fragment">{{ item.label }}</a>
+              <a [routerLink]="['/']" [fragment]="item.fragment">{{ item.label | translate }}</a>
             </li>
           }
         </ul>
@@ -40,12 +37,12 @@
 
       <!-- Connect -->
       <div>
-        <div class="footer-col-title">Connect</div>
+        <div class="footer-col-title">{{'footer.contact-us' | translate}}</div>
         <ul class="footer-links">
           <li><a href="mailto:hello@marafis.com">hello&#64;marafis.com</a></li>
           <li><a href="https://marafis.com" target="_blank" rel="noopener">www.marafis.com</a></li>
-          <li><a href="https://www.linkedin.com/company/marafis" target="_blank" rel="noopener">LinkedIn</a></li>
-          <li><a href="https://www.facebook.com/marafisconsultancy" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.linkedin.com/company/marafis" target="_blank" rel="noopener">{{'cta.linkedin' | translate}}</a></li>
+          <li><a href="https://www.facebook.com/marafisconsultancy" target="_blank" rel="noopener">{{'cta.facebook' | translate}}</a></li>
         </ul>
       </div>
 
@@ -53,10 +50,10 @@
 
     <div class="footer-bottom">
       <span class="footer-copy">
-        &copy; {{ year }} Marafis Technology Consultancy. All rights reserved.
+        &copy; {{ year }} {{ 'footer.copy' | translate }}
       </span>
       <span class="footer-tagline">
-        Engineered with precision. Delivered with integrity.
+       {{ 'footer.tagline' | translate }}
       </span>
     </div>
   </div>

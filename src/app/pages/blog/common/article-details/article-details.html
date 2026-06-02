@@ -67,7 +67,7 @@
           </div>
           <div>
             <div class="author-name">Muhammed Mashiur Rahman</div>
-            <div class="author-label">Principal Architect</div>
+            <div class="author-label">{{"blog.principal-architect" | translate}}</div>
           </div>
         </div>
         <div class="tag-list">
@@ -86,7 +86,7 @@
       <aside class="article-sidebar">
         <div class="sidebar-inner">
 
-          <div class="sidebar-label">Reading</div>
+          <div class="sidebar-label">{{"blog.reading" | translate}}</div>
           <div class="sidebar-progress-wrap">
             <div class="sidebar-progress-bar" [style.height.%]="progress()"></div>
           </div>
@@ -94,7 +94,7 @@
 
           <div class="sidebar-divider"></div>
 
-          <div class="sidebar-label" style="margin-top:1.5rem">Share</div>
+          <div class="sidebar-label" style="margin-top:1.5rem">{{"blog.share" | translate}}</div>
           <div class="share-links">
             <a href="https://www.linkedin.com/company/marafis"
                target="_blank" rel="noopener" class="share-btn" title="Share on LinkedIn">
@@ -129,16 +129,12 @@
             <circle cx="20" cy="20" r="4" stroke="#C9A84C" stroke-width="0.5"/>
             <circle cx="20" cy="20" r="1.5" fill="#C9A84C"/>
           </svg>
-          <h3 class="cta-heading">
-            Building something that needs to <em>last?</em>
+          <h3 class="cta-heading">{{"blog.cta.heading" | translate}} <em>{{"blog.cta.heading-sub" | translate}}</em>
           </h3>
-          <p class="cta-body">
-            Marafis brings 20+ years of hands-on architecture and engineering leadership
-            to enterprises that demand systems built for the long term.
-          </p>
+          <p class="cta-body">{{"blog.cta.body" | translate}}</p>
           <div class="cta-actions">
-            <a href="mailto:hello@marafis.com" class="btn-primary">Get in touch</a>
-            <a [routerLink]="['/']" fragment="services" class="btn-secondary">View services</a>
+            <a href="mailto:hello@marafis.com" class="btn-primary">{{"blog.cta.contact" | translate}}</a>
+            <a [routerLink]="['/']" fragment="services" class="btn-secondary">{{"blog.cta.services" | translate}}</a>
           </div>
         </div>
       </div>
@@ -151,8 +147,8 @@
     <section class="related-section">
       <div class="container">
         <div class="related-header">
-          <div class="section-label">Continue Reading</div>
-          <h2 class="section-title">Related <em>Insights</em></h2>
+          <div class="section-label">{{"blog.relatedLabel" | translate}}</div>
+          <h2 class="section-title">{{"blog.related" | translate}} <em>{{"blog.insights" | translate}}</em></h2>
         </div>
         <div class="related-grid">
           @for (rel of related(); track rel.id) {
@@ -180,6 +176,6 @@
 @if (!post() && !loading()) {
   <div class="not-found">
     <p>Article not found.</p>
-    <a [routerLink]="['/insights']" class="btn-secondary">Back to Insights</a>
+    <a [routerLink]="['/insights']" class="btn-secondary">{{"blog.back-to-insights" | translate}}</a>
   </div>
 }

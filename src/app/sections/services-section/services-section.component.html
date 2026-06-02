@@ -3,13 +3,11 @@
 
     <div class="services-header">
       <div mrfReveal="up">
-        <div class="section-label">Our Expertise</div>
-        <h2 class="section-title">What We <em>Deliver</em></h2>
+        <div class="section-label">{{"sections.services.section-label" | translate}}</div>
+        <h2 class="section-title">{{"sections.services.section-title1" | translate}} <em>{{"sections.services.section-title2" | translate}}</em></h2>
       </div>
       <p class="section-body" mrfReveal="up" [revealDelay]="0.15">
-        We bring decades of hands-on engineering and architectural leadership to every
-        engagement - designing systems that are resilient, secure, and engineered for
-        long-term growth.
+        {{"sections.services.section-body" | translate}}
       </p>
     </div>
 
@@ -18,8 +16,8 @@
         <div class="service-card" mrfReveal="up" [revealDelay]="(i % 3) * 0.1">
           <span class="service-num">{{ service.number }}</span>
           <div class="service-icon" [innerHTML]="safeIcon(service)"></div>
-          <div class="service-name">{{ service.name }}</div>
-          <p class="service-desc">{{ service.description }}</p>
+          <div class="service-name">{{ service.name | translate}}</div>
+          <p class="service-desc">{{ service.description  | translate}}</p>
           <div class="service-arrow">Explore &#8594;</div>
         </div>
       }
